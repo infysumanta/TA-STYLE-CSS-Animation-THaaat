@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Animations</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div class="cube spin">
+                <div class="side top">1</div>
+                <div class="side left">2</div>
+                <div class="side right">3</div>
+            </div>
+
+            <div class="scene">
+                <div class="cube-3d">
+                    <div class="cube-face cube-face-front">Front</div>
+                    <div class="cube-face cube-face-back">Back</div>
+                    <div class="cube-face cube-face-right">Right</div>
+                    <div class="cube-face cube-face-left">Left</div>
+                    <div class="cube-face cube-face-top">Top</div>
+                    <div class="cube-face cube-face-bottom">Bottom</div>
+                </div>
+            </div>
+        </div>
+        <p class="radio-group">
+            <label>
+                <input type="radio" name="rotate-cube-side" value="front" checked /> Front
+            </label>
+            <label>
+                <input type="radio" name="rotate-cube-side" value="right" /> Right
+            </label>
+            <label>
+                <input type="radio" name="rotate-cube-side" value="back" /> Back
+            </label>
+            <label>
+                <input type="radio" name="rotate-cube-side" value="left" /> Left
+            </label>
+            <label>
+                <input type="radio" name="rotate-cube-side" value="top" /> Top
+            </label>
+            <label>
+                <input type="radio" name="rotate-cube-side" value="bottom" /> Bottom
+            </label>
+        </p>
+        <script src="script.js"></script>
+    </body>
+
+</html>
